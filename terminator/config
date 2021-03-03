@@ -1,0 +1,47 @@
+[global_config]
+  scroll_tabbar = True
+  inactive_color_offset = 0.8037974683544303
+  title_use_system_font = False
+  title_font = Fira Code 12
+[keybindings]
+  split_horiz = <Primary><Shift>d
+  split_vert = <Primary><Shift>r
+  toggle_scrollbar = None
+  page_up = None
+  page_down = None
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+  switch_to_tab_10 = <Alt>0
+  reset = None
+[profiles]
+  [[default]]
+    background_color = "#282a36"
+    background_darkness = 0.78
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Code 11
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#262626:#e356a7:#42e66c:#e4f34a:#9b6bdf:#e64747:#75d7ec:#efa554:#7a7a7a:#ff79c6:#50fa7b:#f1fa8c:#bd93f9:#ff5555:#8be9fd:#ffb86c"
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 850, 450
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
